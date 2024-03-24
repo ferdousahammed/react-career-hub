@@ -12,7 +12,7 @@ const links = (
         Home
       </NavLink>
     </li>
-    <li>
+    {/* <li>
       <NavLink
         className={({ isActive }) =>
           isActive ? "text-blue-400 font-bold" : "text-black"
@@ -21,7 +21,7 @@ const links = (
       >
         Jobs
       </NavLink>
-    </li>
+    </li> */}
     <li>
       <NavLink
         className={({ isActive }) =>
@@ -32,7 +32,7 @@ const links = (
         Applied Jobs
       </NavLink>
     </li>
-    <li>
+    {/* <li>
       <NavLink
         className={({ isActive }) =>
           isActive ? "text-blue-400" : "text-black"
@@ -41,7 +41,7 @@ const links = (
       >
         Blogs
       </NavLink>
-    </li>
+    </li> */}
   </>
 );
 const Header = () => {
