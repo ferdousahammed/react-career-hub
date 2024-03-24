@@ -47,10 +47,14 @@ const links = (
 const Header = () => {
   return (
     <div className="mx-[5%] lg:mx-[15.625%] relative">
-      <div className="navbar absolute">
+      <div className="navbar p-0 pt-5 sticky z-20 bg-transparent">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="pl-0 btn btn-ghost lg:hidden"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -81,7 +85,7 @@ const Header = () => {
           <ul className="flex gap-5 px-1 font-medium">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="button-custom">Start Applying</a>
+          <a className="button-custom text-base">Start Applying</a>
         </div>
       </div>
     </div>
