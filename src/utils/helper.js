@@ -14,9 +14,9 @@ const saveToLocalStorage = (id) => {
   if (!isExistJob) {
     storedItems.push(id);
     localStorage.setItem("applied-jobs", JSON.stringify(storedItems));
-    toast("Job application is completed");
+    toast.success("Job application is completed");
   } else {
-    toast("Already applied for that job");
+    toast.error("Already applied for that job");
   }
 };
 
